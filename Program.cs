@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+using System.Runtime.CompilerServices;
+using System.Threading;
 
-Console.WriteLine("Hello, World!");
+class Program
+{
+    static void Main()
+    {
+        LinearInterpolation lerp = new LinearInterpolation();
+        lerp.Main();
+    }
+
+}
