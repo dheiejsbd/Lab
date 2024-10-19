@@ -1,4 +1,4 @@
-﻿class LinearInterpolation
+﻿internal class LinearInterpolation
 {
     public void Main()
     {
