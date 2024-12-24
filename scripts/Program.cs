@@ -6,8 +6,11 @@ class Program
 {
     static void Main()
     {
-        LinearInterpolation lerp = new LinearInterpolation();
-        lerp.Main();
+        //LinearInterpolation lerp = new LinearInterpolation();
+        //lerp.Main();
+        
+        costume costume = new costume();
+        costume.main();
     }
 
 }
